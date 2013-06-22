@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="HB" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="HB_CK" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="EINT" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="BLDR" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="SDA" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="SCL" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="BOOT" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="BusClock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="or_ff" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_scl_out" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="OneTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="OneTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="or_udb" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Bufoe_sda" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_timeout_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="or_udb_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Bufoe_scl" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_scl_in" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_sda_in" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_sda_out" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Vmux_interrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="I2C_FF" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="I2C_IRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <register name="BOOT_FF_XCFG" address="0x400049C8" bitWidth="8" desc="Extended Configuration Register: I2C_XCFG">
+      <field name="csr_clk_en" from="7" to="7" access="RW" resetVal="" desc="" />
+      <field name="i2c_on" from="6" to="6" access="RW" resetVal="" desc="" />
+      <field name="ready_to_sleep" from="5" to="5" access="R" resetVal="" desc="" />
+      <field name="force_nack" from="4" to="4" access="RW" resetVal="" desc="" />
+      <field name="hw_addr_en" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF_ADDR" address="0x400049CA" bitWidth="8" desc="Slave Adddress Register: I2C_ADR">
+      <field name="slave_address" from="6" to="0" access="RW" resetVal="" desc="This register holds the slave's 7-bit address." />
+    </register>
+    <register name="BOOT_FF_CFG" address="0x400049D6" bitWidth="8" desc="Configuration Register: I2C_CFG">
+      <field name="sio_select" from="7" to="7" access="RW" resetVal="" desc="" />
+      <field name="pselect" from="6" to="6" access="RW" resetVal="" desc="" />
+      <field name="bus_error_ie" from="5" to="5" access="RW" resetVal="" desc="" />
+      <field name="stop_ie" from="4" to="4" access="RW" resetVal="" desc="" />
+      <field name="clock_rate" from="2" to="2" access="RW" resetVal="" desc="" />
+      <field name="en_mstr" from="1" to="1" access="RW" resetVal="" desc="" />
+      <field name="en_slave" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF_CSR" address="0x400049D7" bitWidth="8" desc="Control and Status Register: I2C_CSR">
+      <field name="bus_error" from="7" to="7" access="RW" resetVal="" desc="" />
+      <field name="lost_arb" from="6" to="6" access="RW" resetVal="" desc="" />
+      <field name="stop_status" from="5" to="5" access="RW" resetVal="" desc="" />
+      <field name="ack" from="4" to="4" access="RW" resetVal="" desc="" />
+      <field name="address" from="3" to="3" access="RW" resetVal="" desc="" />
+      <field name="transmit" from="2" to="2" access="RW" resetVal="" desc="" />
+      <field name="lrb" from="1" to="1" access="RW" resetVal="" desc="" />
+      <field name="byte_complete" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF_DATA" address="0x400049D8" bitWidth="8" desc="Data Register: I2C_D">
+      <field name="data" from="7" to="0" access="RW" resetVal="" desc="This register provides read/write access to the Shift register." />
+    </register>
+    <register name="BOOT_FF_MCSR" address="0x400049D9" bitWidth="8" desc="Master Control and Status Register: I2C_MCSR">
+      <field name="stop_gen" from="4" to="4" access="RW" resetVal="" desc="" />
+      <field name="bus_busy" from="3" to="3" access="R" resetVal="" desc="" />
+      <field name="master_mode" from="2" to="2" access="R" resetVal="" desc="" />
+      <field name="restart_gen" from="1" to="1" access="RW" resetVal="" desc="" />
+      <field name="start_gen" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__CLK_DIV1" address="0x400049DB" bitWidth="8" desc="Divider of BUS_CLK low part: I2C_CLK_DIV1">
+      <field name="Div" from="7" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__CLK_DIV2" address="0x400049DC" bitWidth="8" desc="Divider high part: I2C_CLK_DIV1">
+      <field name="Div" from="1" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__TMOUT_CSR" address="0x400049DD" bitWidth="8" desc="Extended Configuration Register: I2C_TMOUT_CSR">
+      <field name="sda_pin_status" from="4" to="4" access="RW" resetVal="" desc="" />
+      <field name="scl_pin_status" from="3" to="3" access="RW" resetVal="" desc="" />
+      <field name="i2c_timeout_int_enable" from="2" to="2" access="R" resetVal="" desc="" />
+      <field name="i2c_sda_timeout_enable" from="1" to="1" access="RW" resetVal="" desc="" />
+      <field name="i2c_scl_timeout_enable" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__TMOUT_SR" address="0x400049DE" bitWidth="8" desc="Extended Configuration Register: I2C_TMOUT_SR">
+      <field name="sda_tmout_status" from="1" to="1" access="RW" resetVal="" desc="" />
+      <field name="scl_tmout_status" from="0" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__TMOUT_CFG0" address="0x400049DF" bitWidth="8" desc="Extended Configuration Register: TMOUT_CFG0">
+      <field name="timeout_period_lowbyte" from="7" to="0" access="RW" resetVal="" desc="" />
+    </register>
+    <register name="BOOT_FF__TMOUT_CFG1" address="0x400049E0" bitWidth="8" desc="Extended Configuration Register: TMOUT_CFG1">
+      <field name="timeout_period_highnibble" from="3" to="0" access="RW" resetVal="" desc="" />
+    </register>
+  </block>
+</blockRegMap>
