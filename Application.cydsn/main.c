@@ -1,17 +1,32 @@
-/* ========================================
+/*
+ * Copyright (c) 2013. All rights reserved. 
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
  *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. The name of the author may not be used to endorse or promote products
+ *    derived from this software without specific prior written permission. 
  *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED 
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT 
+ * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT 
+ * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY 
+ * OF SUCH DAMAGE.
  *
- * ========================================
-*/
+ * Author: Lars Randers <lranders@mail.dk>
+ *
+ */
 #include <device.h>
-//#include <dma.h>
-//#include <types.h>
 #include <stdio.h>
 #include <enc28j60.h>
 #include <lwip/init.h>
@@ -27,15 +42,15 @@ volatile unsigned char g_ucFlags = 0;
 volatile unsigned long g_ulTickCounter = 0;
 volatile unsigned long g_ulIntCounter = 0;
 
-#define FLAG_SYSTICK 0
-#define FLAG_RXPKT 1
-#define FLAG_TXPKT 2
-#define FLAG_RXPKTPEND 3
-#define FLAG_ENC_INT 4
-#define FLAG_USE_DHCP 5
-#define FLAG_HTTP_INIT 6
+#define FLAG_SYSTICK     0
+#define FLAG_RXPKT       1
+#define FLAG_TXPKT       2
+#define FLAG_RXPKTPEND   3
+#define FLAG_ENC_INT     4
+#define FLAG_USE_DHCP    5
+#define FLAG_HTTP_INIT   6
 
-
+//Timewheel is set at 20Hz, thus producing a tick every 50ms
 #define TICK_MS 50
 
 const epmLayout_t epmSaneValues = {
@@ -67,7 +82,8 @@ void outHx(uint8 dat)
 
 uint8_t epmWork[32];
 
-#define EPM(mbr) ((epmLayout_t *)epm)->mbr
+//Convenience macro for readability
+#define EPM(member) ((epmLayout_t *)epm)->member
 
 void main()
 {
@@ -102,10 +118,8 @@ void main()
 
 		if(CySetTemp() == CYRET_SUCCESS) {
 			epm = (uint8_t*) ptrEpmWork;
-//			printf("0x%08lx\n", (uint32_t) epm);
 			EPM_Write(epm, 0u);
 			epm += CY_EEPROM_SIZEOF_ROW;
-//			printf("0x%08lx\n", (uint32_t) epm);
 			EPM_Write(epm, 1u);
 			epm -= CY_EEPROM_SIZEOF_ROW;
 		}
@@ -121,6 +135,7 @@ void main()
 	ETW_Start(); //ethernet time wheel
 
 	enc_init(EPM(macAddress));
+
 	while(EINT_Read() == 0) {
 		printf("EINT stuck at zero\n");
 		CyDelay(1000);
