@@ -234,152 +234,72 @@
 </dependency_info>
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Release@CortexM3" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
-<file name=".\CortexM3\ARM_GCC_441\Release\main.o">
-<dep name=".\Generated_Source\PSoC5\BLA.h" />
-<dep name=".\Generated_Source\PSoC5\CYDMAC.H" />
-<dep name=".\Generated_Source\PSoC5\CYFITTER.H" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\DMA_RX_dma.h" />
-<dep name=".\Generated_Source\PSoC5\DMA_TX_dma.h" />
-<dep name=".\Generated_Source\PSoC5\ECS.h" />
-<dep name=".\Generated_Source\PSoC5\ECS_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\EINT.h" />
-<dep name=".\Generated_Source\PSoC5\EINT_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\EPM.h" />
-<dep name=".\Generated_Source\PSoC5\ETE.h" />
-<dep name=".\Generated_Source\PSoC5\ETH.h" />
-<dep name=".\Generated_Source\PSoC5\ETH_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\ETH_PVT.h" />
-<dep name=".\Generated_Source\PSoC5\ETW.h" />
-<dep name=".\Generated_Source\PSoC5\HB.h" />
-<dep name=".\Generated_Source\PSoC5\HB_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\LCD.h" />
-<dep name=".\Generated_Source\PSoC5\LCD_LCDPort.h" />
-<dep name=".\Generated_Source\PSoC5\LCD_LCDPort_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\LDON.h" />
-<dep name=".\Generated_Source\PSoC5\LDON_CK.h" />
-<dep name=".\Generated_Source\PSoC5\LDON_CR.h" />
-<dep name=".\Generated_Source\PSoC5\LDON_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\MISO.h" />
-<dep name=".\Generated_Source\PSoC5\MISO_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\MOSI.h" />
-<dep name=".\Generated_Source\PSoC5\MOSI_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\SCLK.h" />
-<dep name=".\Generated_Source\PSoC5\SCLK_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\TEST.h" />
-<dep name=".\Generated_Source\PSoC5\TEST_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\URT.h" />
-<dep name=".\Generated_Source\PSoC5\URT_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
+<file name=".\CortexM3\ARM_GCC_441\Release\sys_arch.o">
+<dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\err.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\sys.h" />
+<dep name=".\arch\cc.h" />
+<dep name=".\arch\sys_arch.c" />
+<dep name=".\arch\sys_arch.h" />
+<dep name=".\lwipopts.h" />
+</file>
+<file name=".\lwip-1.4.1\src\include\lwip\arch.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\debug.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\err.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\opt.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\sys.h" />
+<file name=".\arch\cc.h" />
+<file name=".\arch\sys_arch.c" />
+<file name=".\arch\sys_arch.h" />
+<file name=".\lwipopts.h" />
+<file name=".\CortexM3\ARM_GCC_441\Release\fs.o">
+<dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\def.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
+<dep name=".\arch\cc.h" />
+<dep name=".\contrib-1.4.1\apps\httpserver_raw\fs.c" />
+<dep name=".\lwipopts.h" />
+</file>
+<file name=".\lwip-1.4.1\src\include\lwip\def.h" />
+<file name=".\contrib-1.4.1\apps\httpserver_raw\fs.c" />
+<file name=".\CortexM3\ARM_GCC_441\Release\httpd.o">
 <dep name=".\lwip-1.4.1\src\include\ipv4\lwip\icmp.h" />
 <dep name=".\lwip-1.4.1\src\include\ipv4\lwip\ip.h" />
 <dep name=".\lwip-1.4.1\src\include\ipv4\lwip\ip_addr.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\def.h" />
-<dep name=".\lwip-1.4.1\src\include\lwip\dhcp.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\err.h" />
-<dep name=".\lwip-1.4.1\src\include\lwip\init.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\mem.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\memp.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\memp_std.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\netif.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\pbuf.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\stats.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\tcp.h" />
-<dep name=".\lwip-1.4.1\src\include\lwip\tcp_impl.h" />
-<dep name=".\lwip-1.4.1\src\include\lwip\udp.h" />
-<dep name=".\lwip-1.4.1\src\include\netif\etharp.h" />
 <dep name=".\arch\cc.h" />
-<dep name=".\crc16.h" />
-<dep name=".\device.h" />
-<dep name=".\eeprom.h" />
-<dep name=".\enc28j60.h" />
+<dep name=".\contrib-1.4.1\apps\httpserver_raw\httpd.c" />
 <dep name=".\lwipopts.h" />
-<dep name=".\main.c" />
 </file>
-<file name=".\Generated_Source\PSoC5\BLA.h" />
-<file name=".\Generated_Source\PSoC5\CYDMAC.H" />
-<file name=".\Generated_Source\PSoC5\CYFITTER.H" />
-<file name=".\Generated_Source\PSoC5\CyDmac.h" />
-<file name=".\Generated_Source\PSoC5\CyFlash.h" />
-<file name=".\Generated_Source\PSoC5\CyLib.h" />
-<file name=".\Generated_Source\PSoC5\CySpc.h" />
-<file name=".\Generated_Source\PSoC5\DMA_RX_dma.h" />
-<file name=".\Generated_Source\PSoC5\DMA_TX_dma.h" />
-<file name=".\Generated_Source\PSoC5\ECS.h" />
-<file name=".\Generated_Source\PSoC5\ECS_aliases.h" />
-<file name=".\Generated_Source\PSoC5\EINT.h" />
-<file name=".\Generated_Source\PSoC5\EINT_aliases.h" />
-<file name=".\Generated_Source\PSoC5\EPM.h" />
-<file name=".\Generated_Source\PSoC5\ETE.h" />
-<file name=".\Generated_Source\PSoC5\ETH.h" />
-<file name=".\Generated_Source\PSoC5\ETH_IntClock.h" />
-<file name=".\Generated_Source\PSoC5\ETH_PVT.h" />
-<file name=".\Generated_Source\PSoC5\ETW.h" />
-<file name=".\Generated_Source\PSoC5\HB.h" />
-<file name=".\Generated_Source\PSoC5\HB_aliases.h" />
-<file name=".\Generated_Source\PSoC5\LCD.h" />
-<file name=".\Generated_Source\PSoC5\LCD_LCDPort.h" />
-<file name=".\Generated_Source\PSoC5\LCD_LCDPort_aliases.h" />
-<file name=".\Generated_Source\PSoC5\LDON.h" />
-<file name=".\Generated_Source\PSoC5\LDON_CK.h" />
-<file name=".\Generated_Source\PSoC5\LDON_CR.h" />
-<file name=".\Generated_Source\PSoC5\LDON_aliases.h" />
-<file name=".\Generated_Source\PSoC5\MISO.h" />
-<file name=".\Generated_Source\PSoC5\MISO_aliases.h" />
-<file name=".\Generated_Source\PSoC5\MOSI.h" />
-<file name=".\Generated_Source\PSoC5\MOSI_aliases.h" />
-<file name=".\Generated_Source\PSoC5\SCLK.h" />
-<file name=".\Generated_Source\PSoC5\SCLK_aliases.h" />
-<file name=".\Generated_Source\PSoC5\TEST.h" />
-<file name=".\Generated_Source\PSoC5\TEST_aliases.h" />
-<file name=".\Generated_Source\PSoC5\URT.h" />
-<file name=".\Generated_Source\PSoC5\URT_IntClock.h" />
-<file name=".\Generated_Source\PSoC5\core_cm3.h" />
-<file name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<file name=".\Generated_Source\PSoC5\cyPm.h" />
-<file name=".\Generated_Source\PSoC5\cydevice.h" />
-<file name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<file name=".\Generated_Source\PSoC5\cyfitter.h" />
-<file name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<file name=".\Generated_Source\PSoC5\cypins.h" />
-<file name=".\Generated_Source\PSoC5\cytypes.h" />
-<file name=".\Generated_Source\PSoC5\project.h" />
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\icmp.h" />
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\ip.h" />
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\ip_addr.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\arch.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\debug.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\def.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\dhcp.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\err.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\init.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\mem.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\memp.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\memp_std.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\netif.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\opt.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\pbuf.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\stats.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\tcp.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\tcp_impl.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\udp.h" />
-<file name=".\lwip-1.4.1\src\include\netif\etharp.h" />
-<file name=".\arch\cc.h" />
-<file name=".\crc16.h" />
-<file name=".\device.h" />
-<file name=".\eeprom.h" />
-<file name=".\enc28j60.h" />
-<file name=".\lwipopts.h" />
-<file name=".\main.c" />
+<file name=".\contrib-1.4.1\apps\httpserver_raw\httpd.c" />
+<file name=".\CortexM3\ARM_GCC_441\Release\crc16.o">
+<dep name=".\crc16.c" />
+</file>
+<file name=".\crc16.c" />
 <file name=".\CortexM3\ARM_GCC_441\Release\enc28j60.o">
 <dep name=".\Generated_Source\PSoC5\BLA.h" />
 <dep name=".\Generated_Source\PSoC5\CYDMAC.H" />
@@ -447,27 +367,70 @@
 <dep name=".\enc28j60reg.h" />
 <dep name=".\lwipopts.h" />
 </file>
+<file name=".\Generated_Source\PSoC5\BLA.h" />
+<file name=".\Generated_Source\PSoC5\CYDMAC.H" />
+<file name=".\Generated_Source\PSoC5\CYFITTER.H" />
+<file name=".\Generated_Source\PSoC5\CyDmac.h" />
+<file name=".\Generated_Source\PSoC5\CyFlash.h" />
+<file name=".\Generated_Source\PSoC5\CyLib.h" />
+<file name=".\Generated_Source\PSoC5\CySpc.h" />
+<file name=".\Generated_Source\PSoC5\DMA_RX_dma.h" />
+<file name=".\Generated_Source\PSoC5\DMA_TX_dma.h" />
+<file name=".\Generated_Source\PSoC5\ECS.h" />
+<file name=".\Generated_Source\PSoC5\ECS_aliases.h" />
+<file name=".\Generated_Source\PSoC5\EINT.h" />
+<file name=".\Generated_Source\PSoC5\EINT_aliases.h" />
+<file name=".\Generated_Source\PSoC5\EPM.h" />
+<file name=".\Generated_Source\PSoC5\ETE.h" />
+<file name=".\Generated_Source\PSoC5\ETH.h" />
+<file name=".\Generated_Source\PSoC5\ETH_IntClock.h" />
+<file name=".\Generated_Source\PSoC5\ETH_PVT.h" />
+<file name=".\Generated_Source\PSoC5\ETW.h" />
+<file name=".\Generated_Source\PSoC5\HB.h" />
+<file name=".\Generated_Source\PSoC5\HB_aliases.h" />
+<file name=".\Generated_Source\PSoC5\LCD.h" />
+<file name=".\Generated_Source\PSoC5\LCD_LCDPort.h" />
+<file name=".\Generated_Source\PSoC5\LCD_LCDPort_aliases.h" />
+<file name=".\Generated_Source\PSoC5\LDON.h" />
+<file name=".\Generated_Source\PSoC5\LDON_CK.h" />
+<file name=".\Generated_Source\PSoC5\LDON_CR.h" />
+<file name=".\Generated_Source\PSoC5\LDON_aliases.h" />
+<file name=".\Generated_Source\PSoC5\MISO.h" />
+<file name=".\Generated_Source\PSoC5\MISO_aliases.h" />
+<file name=".\Generated_Source\PSoC5\MOSI.h" />
+<file name=".\Generated_Source\PSoC5\MOSI_aliases.h" />
+<file name=".\Generated_Source\PSoC5\SCLK.h" />
+<file name=".\Generated_Source\PSoC5\SCLK_aliases.h" />
+<file name=".\Generated_Source\PSoC5\TEST.h" />
+<file name=".\Generated_Source\PSoC5\TEST_aliases.h" />
+<file name=".\Generated_Source\PSoC5\URT.h" />
+<file name=".\Generated_Source\PSoC5\URT_IntClock.h" />
+<file name=".\Generated_Source\PSoC5\core_cm3.h" />
+<file name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<file name=".\Generated_Source\PSoC5\cyPm.h" />
+<file name=".\Generated_Source\PSoC5\cydevice.h" />
+<file name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<file name=".\Generated_Source\PSoC5\cyfitter.h" />
+<file name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<file name=".\Generated_Source\PSoC5\cypins.h" />
+<file name=".\Generated_Source\PSoC5\cytypes.h" />
+<file name=".\Generated_Source\PSoC5\project.h" />
+<file name=".\lwip-1.4.1\src\include\netif\etharp.h" />
+<file name=".\device.h" />
 <file name=".\dma.h" />
 <file name=".\enc28j60.c" />
+<file name=".\enc28j60.h" />
 <file name=".\enc28j60reg.h" />
-<file name=".\CortexM3\ARM_GCC_441\Release\sys_arch.o">
+<file name=".\CortexM3\ARM_GCC_441\Release\err.o">
 <dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\err.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
-<dep name=".\lwip-1.4.1\src\include\lwip\sys.h" />
 <dep name=".\arch\cc.h" />
-<dep name=".\arch\sys_arch.c" />
-<dep name=".\arch\sys_arch.h" />
+<dep name=".\lwip-1.4.1\src\api\err.c" />
 <dep name=".\lwipopts.h" />
 </file>
-<file name=".\lwip-1.4.1\src\include\lwip\sys.h" />
-<file name=".\arch\sys_arch.c" />
-<file name=".\arch\sys_arch.h" />
-<file name=".\CortexM3\ARM_GCC_441\Release\crc16.o">
-<dep name=".\crc16.c" />
-</file>
-<file name=".\crc16.c" />
+<file name=".\lwip-1.4.1\src\api\err.c" />
 <file name=".\CortexM3\ARM_GCC_441\Release\def.o">
 <dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
 <dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
@@ -502,10 +465,9 @@
 <dep name=".\lwipopts.h" />
 </file>
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\autoip.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\dhcp.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\dns.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\memp.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\memp_std.h" />
-<file name=".\lwip-1.4.1\src\include\lwip\stats.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\udp.h" />
 <file name=".\lwip-1.4.1\src\core\dhcp.c" />
 <file name=".\CortexM3\ARM_GCC_441\Release\init.o">
 <dep name=".\lwip-1.4.1\src\include\ipv4\lwip\autoip.h" />
@@ -548,12 +510,14 @@
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\igmp.h" />
 <file name=".\lwip-1.4.1\src\include\ipv4\lwip\inet.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\api.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\init.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\netbuf.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\raw.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\snmp.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\snmp_msg.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\snmp_structs.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\sockets.h" />
+<file name=".\lwip-1.4.1\src\include\lwip\tcp_impl.h" />
 <file name=".\lwip-1.4.1\src\include\lwip\timers.h" />
 <file name=".\lwip-1.4.1\src\core\init.c" />
 <file name=".\CortexM3\ARM_GCC_441\Release\icmp.o">
@@ -1007,6 +971,85 @@
 <dep name=".\lwipopts.h" />
 </file>
 <file name=".\lwip-1.4.1\src\netif\etharp.c" />
+<file name=".\CortexM3\ARM_GCC_441\Release\main.o">
+<dep name=".\Generated_Source\PSoC5\BLA.h" />
+<dep name=".\Generated_Source\PSoC5\CYDMAC.H" />
+<dep name=".\Generated_Source\PSoC5\CYFITTER.H" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\DMA_RX_dma.h" />
+<dep name=".\Generated_Source\PSoC5\DMA_TX_dma.h" />
+<dep name=".\Generated_Source\PSoC5\ECS.h" />
+<dep name=".\Generated_Source\PSoC5\ECS_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\EINT.h" />
+<dep name=".\Generated_Source\PSoC5\EINT_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\EPM.h" />
+<dep name=".\Generated_Source\PSoC5\ETE.h" />
+<dep name=".\Generated_Source\PSoC5\ETH.h" />
+<dep name=".\Generated_Source\PSoC5\ETH_IntClock.h" />
+<dep name=".\Generated_Source\PSoC5\ETH_PVT.h" />
+<dep name=".\Generated_Source\PSoC5\ETW.h" />
+<dep name=".\Generated_Source\PSoC5\HB.h" />
+<dep name=".\Generated_Source\PSoC5\HB_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\LCD.h" />
+<dep name=".\Generated_Source\PSoC5\LCD_LCDPort.h" />
+<dep name=".\Generated_Source\PSoC5\LCD_LCDPort_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\LDON.h" />
+<dep name=".\Generated_Source\PSoC5\LDON_CK.h" />
+<dep name=".\Generated_Source\PSoC5\LDON_CR.h" />
+<dep name=".\Generated_Source\PSoC5\LDON_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\MISO.h" />
+<dep name=".\Generated_Source\PSoC5\MISO_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\MOSI.h" />
+<dep name=".\Generated_Source\PSoC5\MOSI_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\SCLK.h" />
+<dep name=".\Generated_Source\PSoC5\SCLK_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\TEST.h" />
+<dep name=".\Generated_Source\PSoC5\TEST_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\URT.h" />
+<dep name=".\Generated_Source\PSoC5\URT_IntClock.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\contrib-1.4.1\apps\httpserver_raw\httpd.h" />
+<dep name=".\lwip-1.4.1\src\include\ipv4\lwip\icmp.h" />
+<dep name=".\lwip-1.4.1\src\include\ipv4\lwip\ip.h" />
+<dep name=".\lwip-1.4.1\src\include\ipv4\lwip\ip_addr.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\def.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\dhcp.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\err.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\init.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\mem.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\netif.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\pbuf.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\tcp.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\tcp_impl.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\udp.h" />
+<dep name=".\lwip-1.4.1\src\include\netif\etharp.h" />
+<dep name=".\arch\cc.h" />
+<dep name=".\crc16.h" />
+<dep name=".\device.h" />
+<dep name=".\eeprom.h" />
+<dep name=".\enc28j60.h" />
+<dep name=".\lwipopts.h" />
+<dep name=".\main.c" />
+</file>
+<file name=".\contrib-1.4.1\apps\httpserver_raw\httpd.h" />
+<file name=".\crc16.h" />
+<file name=".\eeprom.h" />
+<file name=".\main.c" />
 <file name=".\CortexM3\ARM_GCC_441\Release\sys_stubs.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -1476,6 +1519,16 @@
 <dep name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
 </file>
 <file name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<file name=".\CortexM3\ARM_GCC_441\Release\fsdata.o">
+<dep name=".\lwip-1.4.1\src\include\lwip\arch.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\debug.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\def.h" />
+<dep name=".\lwip-1.4.1\src\include\lwip\opt.h" />
+<dep name=".\arch\cc.h" />
+<dep name=".\contrib-1.4.1\apps\httpserver_raw\fsdata.c" />
+<dep name=".\lwipopts.h" />
+</file>
+<file name=".\contrib-1.4.1\apps\httpserver_raw\fsdata.c" />
 <file name=".\Generated_Source\PSoC5\TICK.h" />
 <file name=".\CortexM3\ARM_GCC_441\Release\TICK.o">
 <dep name=".\Generated_Source\PSoC5\CYDEVICE_TRM.H" />
@@ -1560,8 +1613,11 @@
 <dep name=".\CortexM3\ARM_GCC_441\Release\tcp_in.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\tcp_out.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\sys.o" />
+<dep name=".\CortexM3\ARM_GCC_441\Release\err.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\sys_arch.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\sys_stubs.o" />
+<dep name=".\CortexM3\ARM_GCC_441\Release\httpd.o" />
+<dep name=".\CortexM3\ARM_GCC_441\Release\fs.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\main.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\enc28j60.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Release\crc16.o" />
@@ -1636,73 +1692,77 @@
 <name_val_pair name=".\Generated_Source\PSoC5\LDON_CK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;DEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-ffunction-sections &quot;" />
 </name>
 <name v="c9323d49-d323-40b8-9b59-cc008d68a989@Release@CortexM3">
-<name_val_pair name=".\main.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\BLA.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LCD.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LCD_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LCD_LCDPort.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\Cm3Start.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\core_cm3.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\main.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\BLA.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LCD.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LCD_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LCD_LCDPort.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\Cm3Start.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\core_cm3.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
 <name_val_pair name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" v="&quot;-I. &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-g &quot;&quot;-alh=${OutputDir}/${CompileFile}.lst &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\CyDmac.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\CyFlash.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\CyLib.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\cyPm.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\CySpc.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\cyutils.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LDON.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LDON_CK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\HB.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\LDON_CR.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\cyfitter_cfg.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\CyDmac.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\CyFlash.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\CyLib.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\cyPm.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\CySpc.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\cyutils.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LDON.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LDON_CK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\HB.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\LDON_CR.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\cyfitter_cfg.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
 <name_val_pair name="E:\CYprojects\NAS\Application.cydsn\CortexM3\ARM_GCC_441\Release\Application.hex" v="&quot;-mthumb &quot;&quot;-march=armv7-m &quot;&quot;-mfix-cortex-m3-ldrd &quot;&quot;-T &quot;&quot;.\Generated_Source\PSoC5\cm3gcc.ld &quot;&quot;-g &quot;&quot;-Wl,-Map,${OutputDir}\${ProjectShortName}.map &quot;&quot;-Wl,--gc-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\init.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\stats.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\mem.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\memp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\netif.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\udp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\tcp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\timers.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\dhcp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\pbuf.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\def.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\netif\etharp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\inet_chksum.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\raw.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\tcp_in.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\tcp_out.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\sys.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip_addr.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\icmp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip_frag.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\arch\sys_arch.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\MISO.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\MOSI.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\SCLK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETH.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETH_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETH_INT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ECS.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\DMA_RX_dma.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\DMA_TX_dma.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETH_IntClock.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\URT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\URT_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\URT_INT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\URT_BOOT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\URT_IntClock.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\enc28j60.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\sys_stubs.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\init.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\stats.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\mem.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\memp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\netif.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\udp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\tcp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\timers.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\dhcp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\pbuf.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\def.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\netif\etharp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\inet_chksum.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\raw.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\tcp_in.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\tcp_out.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\sys.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip_addr.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\icmp.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\core\ipv4\ip_frag.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\arch\sys_arch.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\MISO.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\MOSI.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\SCLK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETH.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETH_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETH_INT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ECS.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\DMA_RX_dma.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\DMA_TX_dma.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETH_IntClock.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\URT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\URT_PM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\URT_INT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\URT_BOOT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\URT_IntClock.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\enc28j60.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\sys_stubs.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
 <name_val_pair name=".\Generated_Source\PSoC5\TICK.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
 <name_val_pair name=".\Generated_Source\PSoC5\ETC.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETW.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\EINT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\ETE.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\TEST.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\Generated_Source\PSoC5\EPM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
-<name_val_pair name=".\crc16.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETW.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\EINT.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\ETE.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\TEST.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\Generated_Source\PSoC5\EPM.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\crc16.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\contrib-1.4.1\apps\httpserver_raw\httpd.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\contrib-1.4.1\apps\httpserver_raw\fs.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\lwip-1.4.1\src\api\err.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
+<name_val_pair name=".\contrib-1.4.1\apps\httpserver_raw\fsdata.c" v="&quot;-I. &quot;&quot;-Wno-main &quot;&quot;-I./Generated_Source/PSoC5 &quot;&quot;-mcpu=cortex-m3 &quot;&quot;-mthumb &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include &quot;&quot;-I &quot;&quot;./lwip-1.4.1/src/include/ipv4 &quot;&quot;-I &quot;&quot;./contrib-1.4.1/apps &quot;&quot;-Wall &quot;&quot;-g &quot;&quot;-D &quot;&quot;NDEBUG &quot;&quot;-Wa,-alh=${OutputDir}\${CompileFile}.lst &quot;&quot;-Os &quot;&quot;-ffunction-sections &quot;" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="&quot;-.appdatapath&quot; &quot;C:\Users\lars\AppData\Local\Cypress Semiconductor\PSoC Creator\2.2&quot; &quot;-.fdsnotice&quot; &quot;-.fdswarpdepfile=warp_dependencies.txt&quot; &quot;-.fdselabdepfile=elab_dependencies.txt&quot; &quot;-.fdsbldfile=generated_files.txt&quot; &quot;-p&quot; &quot;E:\CYprojects\NAS\Application.cydsn\Application.cyprj&quot; &quot;-d&quot; &quot;CY8C5868AXI-LP035&quot; &quot;-s&quot; &quot;E:\CYprojects\NAS\Application.cydsn\Generated_Source\PSoC5&quot; &quot;--&quot; &quot;-yv2&quot; &quot;-v3&quot; &quot;-ygs&quot; &quot;-q10&quot; &quot;-o2&quot; &quot;-.fftcfgtype=LE&quot; " />
@@ -2492,7 +2552,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="130163200576275543" />
+<deps_time v="130164601082578915" />
 <top_block v="TopDesign" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>

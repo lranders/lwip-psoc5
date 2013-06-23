@@ -19,6 +19,7 @@
 #include <lwip/dhcp.h>
 #include <lwip/tcp_impl.h>
 #include <netif/etharp.h>
+#include <httpserver_raw/httpd.h>
 #include <crc16.h>
 #include <eeprom.h>
 
@@ -32,6 +33,8 @@ volatile unsigned long g_ulIntCounter = 0;
 #define FLAG_RXPKTPEND 3
 #define FLAG_ENC_INT 4
 #define FLAG_USE_DHCP 5
+#define FLAG_HTTP_INIT 6
+
 
 #define TICK_MS 50
 
@@ -159,6 +162,7 @@ void main()
 		netif_set_up(&netif);
 	}
 
+
 	unsigned long lastArpTime = 0, lastTcpTime = 0, lastDhcpCoarseTime = 0, lastDhcpFineTime = 0;
 
 	while(1)
@@ -184,6 +188,10 @@ void main()
 		if((g_ucFlags & (1<<FLAG_ENC_INT)) != 0) {
 			enc_action(&netif);
 			g_ucFlags &= ~(1<<FLAG_ENC_INT);
+		}
+		if(((g_ucFlags & (1<<FLAG_HTTP_INIT)) == 0) && (netif.flags & NETIF_FLAG_UP )) {
+			httpd_init();
+			g_ucFlags |= (1<<FLAG_HTTP_INIT);
 		}
 		heartbeat();
 	}

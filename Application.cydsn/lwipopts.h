@@ -32,12 +32,15 @@
 #define IP_REASSEMBLY				0
 #define IP_FRAG						0
 
-#if 0
+#define LWIP_HTTPD_SUPPORT_V09      0
+
+#if 1
 #define LWIP_DEBUG
 #define LWIP_DBG_MIN_LEVEL			0x00
-#define NETIF_DEBUG					LWIP_DBG_ON | LWIP_DBG_TRACE
-#define ETHARP_DEBUG				LWIP_DBG_ON | LWIP_DBG_TRACE
+//#define NETIF_DEBUG				LWIP_DBG_ON
+//#define ETHARP_DEBUG				LWIP_DBG_ON
 #define DHCP_DEBUG					LWIP_DBG_ON
+#define HTTPD_DEBUG					LWIP_DBG_ON
 #endif
 
 #endif
